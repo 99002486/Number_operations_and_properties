@@ -1,4 +1,5 @@
 #include "armstrongNumber.h"
+#include<math.h>
 
 int armstrongNumber(int number)
 {
