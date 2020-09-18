@@ -13,7 +13,7 @@ int primeNumber(int number)
             /*divides odd numbers less than n to see if there are
             any divisors.
             If there are none, it is prime*/
-            for(int i=3;i<n;i+2)
+            for(int i=3;i<number;i+2)
             {
                 if(number%i==0)
                     return -1;
