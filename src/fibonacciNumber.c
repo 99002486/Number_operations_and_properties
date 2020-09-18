@@ -1,5 +1,5 @@
 #include "fibonacciNumber.h"
-
+#include "perfectSquare.h"
 int fibonacciNumber(int number)
 {
 	return(perfectSquare(5*number*number +4) || perfectSquare(5*number*number - 4)); 
