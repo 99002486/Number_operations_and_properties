@@ -14,7 +14,7 @@ int armstrongNumber(int number)
 	}
 
 	for (initialNumber = number; initialNumber != 0; initialNumber /= 10) {
-		remainder = originalNum % 10;
+		remainder = initialNumber % 10;
 
 	// store the sum of the power of individual digits in result
 		sum += pow(remainder, length);
