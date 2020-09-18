@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<math.h>
 #include "numberOperations.h"
 #include "armstrongNumber.h"
@@ -21,6 +22,11 @@ int number2 = 0;
 enum functions{ PROPERTY = 1, OPERATIONS};
 enum properties{ ARMSTRONG = 1, FIBONACCI, NEON, PALINDROME, PERFECTSQR, PRIME, EXIT_P};
 enum operations{ ADD=1, SUBTRACT, DIVIDE, MULTIPLY, RAISEDTO, EXIT_O};
+
+/*menus*/
+void main_menu(void);
+void property_menu(void);
+void operations_menu(void);
 
 /*Start of the application*/
 int main(int argc, char*argv[])
