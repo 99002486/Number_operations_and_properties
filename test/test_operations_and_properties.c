@@ -98,12 +98,12 @@ void test_perfectSquare(void){
   CU_ASSERT(1 == perfectSquare(9));
   CU_ASSERT(0 == perfectSquare(13));
 }
-void palindrome(void)
+void test_palindrome(void)
 {
   CU_ASSERT(1 == palindrome(12321));
   CU_ASSERT(0 == palindrome(12341));
 }
-void primeNumber(void){
+void test_primeNumber(void){
   CU_ASSERT(1 == primeNumber(7));
   CU_ASSERT(-1 == primeNumber(8));
 }
