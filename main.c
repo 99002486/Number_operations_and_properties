@@ -162,7 +162,7 @@ void operations_menu(void)
 		scanf("%d",&number1);
 		printf("divided by");
 		scanf("%d",&number2);
-		result = dvide(number1, number2);
+		result = divide(number1, number2);
 		break;
 	case MULTIPLY:
 		printf("enter a number");
