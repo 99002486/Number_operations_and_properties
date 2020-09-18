@@ -37,8 +37,8 @@ int main() {
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "add", test_add);
   CU_add_test(suite, "subtract", test_subtract);
-  CU_add_test(suite, "divide", test_multiply);
-  CU_add_test(suite, "multiply", test_divide);
+  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "divide", test_divide);
 
 
 /* Note: Do not edit START*/
