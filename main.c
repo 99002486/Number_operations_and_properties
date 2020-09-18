@@ -44,7 +44,6 @@ void main_menu(void)
 	printf("\n1. Display a special property\n2. Operate on two numbers");
 	printf("\n\tEnter your choice\n");
 
-	__fpurge(stdin);
 	scanf("%d",&function_selector);
 
 	if(function_selector == PROPERTY)
@@ -65,16 +64,9 @@ void main_menu(void)
 void property_menu(void)
 {
 	printf("\nSpecial numbers that can be identified\n");
-	printf("\n1. Armstrong Number
-		\n2. Fibonacci Number
-		\n3. Neon Number
-		\n4. Palindrome
-		\n5. Perfect Square 
-		\n6. Prime Number
-		\n7. Exit");
+	printf("\n 1. Armstrong Number 2. Fibonacci Number 3. Neon Number 4. Palindrome 5. Perfect Square 6. Prime Number 7. Exit \n");
 	printf("Enter your selection");
 
-	__fpurge(stdin);
 	scanf("%d",&property_selector);
 	printf("Enter number greater than 0: ");
 	scanf("%d",&number1);
@@ -130,6 +122,7 @@ void property_menu(void)
 		break;
 	case EXIT_P:
 		exit(0);
+		break;
 
 	}
 
@@ -138,10 +131,9 @@ void property_menu(void)
 void operations_menu(void)
 {
 	printf("\nOperations that can be performed\n");
-	printf("\n1. Add\n2. Subtract\n3. Divide\n4. Multiply\n5. Power");
+	printf("1. Add 2. Subtract 3. Divide 4. Multiply 5. Power");
 	printf("Enter your selection:");
 
-	__fpurge(stdin);
 	scanf("%d",&operation_selector);
 	int result;
 	if(operation_selector < ADD || operation_selector > RAISEDTO)
@@ -188,5 +180,6 @@ void operations_menu(void)
 		break;
 	case EXIT_O:
 		exit(0);
+		break;
 	}
 }
