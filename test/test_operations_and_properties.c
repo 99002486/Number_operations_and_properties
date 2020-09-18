@@ -58,29 +58,20 @@ int main() {
 void test_add(void) {
   CU_ASSERT(50 == add(30, 20));
   
-  /* Dummy fail*/
-  CU_ASSERT(1501 == add(750, 7500));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-30 == subtract(0, 30));
   
-  /* Dummy fail*/
-  CU_ASSERT(10 == subtract(1000, 900));
 }
 
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
-  
-  /* Dummy fail*/
-  CU_ASSERT(25 == multiply(2, 5));
 }
 
 void test_divide(void) {
   CU_ASSERT(0 == divide(1, 0));
   CU_ASSERT(5 == divide(20,4));
-  /* Dummy fail*/
-  CU_ASSERT(3 == divide(2, 2));
 }
 void test_armstrongNumber(void){
   CU_ASSERT(1 == armstrongNumber(153));
