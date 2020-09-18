@@ -3,13 +3,13 @@
 
 int armstrongNumber(int number)
 {
-	int initialNumber,remainder;
+	int initialNumber,remainder,length;
 	float sum;
 	initialNumber = number;
 	/* The following code was taken and modified from programiz.com*/
 
-	// store the number of digits of num in n
-	for (initialNumber = number; initialNumber != 0; ++n) {
+	// store the number of digits of number in length
+	for (initialNumber = number; initialNumber != 0; ++length) {
 		initialNumber /= 10;
 	}
 
@@ -17,7 +17,7 @@ int armstrongNumber(int number)
 		remainder = originalNum % 10;
 
 	// store the sum of the power of individual digits in result
-		sum += pow(remainder, n);
+		sum += pow(remainder, length);
    }
    return ((int)sum == number);
 }
