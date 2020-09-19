@@ -22,6 +22,7 @@ void test_add(void);
 void test_subtract(void);
 void test_divide(void);
 void test_multiply(void);
+void test_raisedTo(void;
 
 
 /* Start of the application test */
@@ -39,6 +40,7 @@ int main() {
   CU_add_test(suite, "subtract", test_subtract);
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "raised to", test_raisedTo);
   CU_add_test(suite, "armstrong number", test_armstrongNumber);
   CU_add_test(suite, "fibonacci", test_fibonacciNumber);
   CU_add_test(suite, "neon number", test_neonNumber);
@@ -63,16 +65,23 @@ int main() {
 /* Write all the test functions */ 
 void test_add(void) {
   CU_ASSERT(50 == add(30, 20));
-  
+  CU_ASSER(-5 == add(-10,5));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-30 == subtract(0, 30));
+  CU_ASSERT(1 == subtract(1,0));
   
 }
 
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
+  CU_ASSERT(60 == multiply(12,5));
+}
+                   
+void test_raisedTo(void) {
+  CU_ASSERT(16 == raisedto(2, 4));
+  CU_ASSERT(9 == raisedto(3,2));
 }
 
 void test_divide(void) {
@@ -89,7 +98,7 @@ void test_fibonacciNumber(void){
 }
 void test_neonNumber(void){
   CU_ASSERT(1 == neonNumber(9));
-  CU_ASSERT(1 == neonNumber(8));
+  CU_ASSERT(0 == neonNumber(8));
 }
 void test_perfectSquare(void){
   CU_ASSERT(1 == perfectSquare(9));
