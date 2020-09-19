@@ -8,13 +8,13 @@ An application to check if a number is a special number or to perform operations
 ![cppcheck-action](https://github.com/99002486/Number_operations_and_properties/workflows/cppcheck-action/badge.svg)
 
 ## Integrated Tools to GitHub
-*  [Codacy](https://www.codacy.com/)
+*   [Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
-* Requirements
-* Design
-* Test Plan
-* Build using Make for CI
-* Unit tests with Cunit
-* Static code analysis using cppcheck
-* Raise issues
+*  Requirements
+*  Design
+*  Test Plan
+*  Build using Make for CI
+*  Unit tests with Cunit
+*  Static code analysis using cppcheck
+*  Raise issues
