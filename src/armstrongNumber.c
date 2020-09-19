@@ -3,7 +3,7 @@
 
 int armstrongNumber(int number)
 {
-	int initialNumber,remainder,length;
+	int initialNumber,remainder, length=0;
 	float sum = 0;
 	initialNumber = number;
 	/* The following code was taken and modified from programiz.com*/
