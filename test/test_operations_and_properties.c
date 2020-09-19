@@ -22,7 +22,7 @@ void test_add(void);
 void test_subtract(void);
 void test_divide(void);
 void test_multiply(void);
-void test_raisedTo(void;
+void test_raisedTo(void);
 
 
 /* Start of the application test */
