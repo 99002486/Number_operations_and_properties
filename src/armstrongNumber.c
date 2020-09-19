@@ -4,7 +4,7 @@
 int armstrongNumber(int number)
 {
 	int initialNumber,remainder,length;
-	float sum;
+	float sum = 0;
 	initialNumber = number;
 	/* The following code was taken and modified from programiz.com*/
 
