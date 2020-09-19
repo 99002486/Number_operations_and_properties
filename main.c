@@ -10,9 +10,9 @@
 #include "primeNumber.h"
 
 /*Selection variable*/
-unsigned int function_selector;
-unsigned int property_selector;
-unsigned int operation_selector;
+int function_selector;
+int property_selector;
+int operation_selector;
 
 /*numbers that need to be entered*/
 int number1 = 0;
