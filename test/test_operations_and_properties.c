@@ -39,6 +39,12 @@ int main() {
   CU_add_test(suite, "subtract", test_subtract);
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "armstrong number", test_armstrongNumber);
+  CU_add_test(suite, "fibonacci", test_fibonacciNumber);
+  CU_add_test(suite, "neon number", test_neonNumber);
+  CU_add_test(suite, "palindrome", test_palindrome);
+  CU_add_test(suite, "perfect square", test_perfectSquare);
+  CU_add_test(suite, "prime number", test_primeNumber);
 
 
 /* Note: Do not edit START*/
