@@ -65,7 +65,7 @@ int main() {
 /* Write all the test functions */ 
 void test_add(void) {
   CU_ASSERT(50 == add(30, 20));
-  CU_ASSER(-5 == add(-10,5));
+  CU_ASSERT(-5 == add(-10,5));
 }
 
 void test_subtract(void) {
