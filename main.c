@@ -149,6 +149,7 @@ void operations_menu(void)
 		printf("added to");
 		scanf("%d",&number2);
 		result = add(number1, number2);
+		printf("%d",result);
 		break;
 	case SUBTRACT:
 		printf("enter a number");
@@ -156,6 +157,7 @@ void operations_menu(void)
 		printf("subtracted by");
 		scanf("%d",&number2);
 		result = subtract(number1, number2);
+		printf("%d",result);
 		break;
 	case DIVIDE:
 		printf("enter a number");
@@ -163,6 +165,7 @@ void operations_menu(void)
 		printf("divided by");
 		scanf("%d",&number2);
 		result = divide(number1, number2);
+		printf("%d",result);
 		break;
 	case MULTIPLY:
 		printf("enter a number");
@@ -170,6 +173,7 @@ void operations_menu(void)
 		printf("multiplied by");
 		scanf("%d",&number2);
 		result = multiply(number1, number2);
+		printf("%d",result);
 		break;
 	case RAISEDTO:
 		printf("enter a number");
@@ -177,6 +181,7 @@ void operations_menu(void)
 		printf("raised to");
 		scanf("%d",&number2);
 		result = raisedto(number1, number2);
+		printf("%d",result);
 		break;
 	case EXIT_O:
 		exit(0);
