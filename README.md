@@ -11,10 +11,10 @@ An application to check if a number is a special number or to perform operations
 *   [Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
-*  Requirements
-*  Design
-*  Test Plan
-*  Build using Make for CI
-*  Unit tests with Cunit
-*  Static code analysis using cppcheck
-*  Raise issues
+*   Requirements
+*   Design
+*   Test Plan
+*   Build using Make for CI
+*   Unit tests with Cunit
+*   Static code analysis using cppcheck
+*   Raise issues
