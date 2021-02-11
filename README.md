@@ -17,4 +17,4 @@ An application to check if a number is a special number or to perform operations
 *   Build using Make for CI
 *   Unit tests with Cunit
 *   Static code analysis using cppcheck
-*   Raise issues
+*   Raise issues!
